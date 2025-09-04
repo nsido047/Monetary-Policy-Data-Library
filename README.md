@@ -22,7 +22,7 @@ Furthermore, the creation of such a data library would assist researchers in com
 
 By consolidating fragmented sources into a standardized, open-access repository, the Monetary Policy Library removes a major barrier to conducting timely, accurate, and comparable monetary policy research. Instead of spending days or weeks reconstructing event timelines from disparate documents, researchers can directly access clean datasets that are ready for empirical analysis and have been compiled through prior peer-reviewed research and publicly available Government data. This not only improves research efficiency, but also enhances reproducibility and cross-country comparability in monetary economics. In the following sections, we demonstrate how this approach works in practice and how it can be applied to real-world policy event studies.
 
-# Scope and Initial Dataset: Quantiative Easing Announcements
+# Scope and Initial Dataset Template: Quantiative Easing Announcement(s)
 
 To begin building the Monetary Policy Data Library, I focus initially on compiling a comprehensive, structured dataset of QE announcements from four major central banks. QE events are a pivotal unconventional monetary policy tool that have been widely studied over the past two decades, making them an ideal starting point due to their empirical relevance and well-documented history. Focusing on QE announcements rather than the implementation of asset purchases captures the key moments when market participants update their expectations based on new information. Announcements provide clear, discrete events that are easier to timestamp and analyze, reflecting the central bank’s policy intentions and signaling effects, which drive the immediate financial market reactions.
 
@@ -54,6 +54,13 @@ For each QE announcement, I aim to collect:
 Starting with QE announcements provides a clearly defined event type that is central to recent monetary policy research. Standardizing this dataset enables rigorous cross-country and temporal comparisons, facilitating analysis of the transmission and effectiveness of unconventional policy tools. Furthermore, unlike interest rate decisions, which generally occur on predetermined schedule and a complete history already readilyt available, QE announcements are more ambiguous, occurring irregularly and sporadically, making it more challenging to compile a complete and consistent dataset increasing the novelty of such a complete set.
 
 # Methodology
+I start with piecing together relevant event study literature that collect quantiative easing announcement dates, times and information. I start with the United States in which four distinct episodes of large scale asset purchase programs have occured; QE1 (2008), QE2 (2010), QE3 (2012), and QE4 (2020).
+Announcements pertaining to the second 'Operation Twist' maturity extension program which occured in 2011 are not included as this is not a direct expansion to the Federal Reserve balance sheet. In combing through exisitng research and announcement data sets I can cross reference these with the official Federal Reserve News & Events page to ensure
+alignment with the scope of the database. 
+
+## Event Identification
+
+
 
 # References
 Busetto, F., Chavaz, M., Froemel, M., Joyce, M., Kaminska, I., & Worlidge, J. (2022). QE at the Bank of England: A Perspective on its Functioning and Effectiveness (Volume 2022, Issue Q1). Bank of England. https://www.bankofengland.co.uk/quarterly-bulletin/2022/2022-q1/qe-at-the-bank-of-england-a-perspective-on-its-functioning-and-effectiveness
